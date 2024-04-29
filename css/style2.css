@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header-top{
+    height:100px;
+    /*border:1px red solid;*/
+    width:100%;
+    /*box-shadow:20px 20px 20px 20px green;*/
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+    position:sticky;
+   top:0px;
+   background-color: white;
+   z-index:900;
+}
+
+
+.left .logo img{
+    height:99px;
+    
+}
+.left .header-nav ul li {
+    
+   padding:20px;
+   margin:30px;
+   list-style: none;
+  
+}
+.left .header-nav ul li a{
+    text-decoration:none;
+    font-family: "PT Serif", serif;
+    font-size:20px;
+    font-weight: 200;
+    color:#0C359E;
+}
+
+.right .search-bar input{
+    width:450px;
+    padding:10px;
+    border-radius:10px;
+    margin:0px;
+   /* transition:width 2s;*/
+}
+/*.search-bar input:hover{
+ width:450px;
+}*/
+.right .search-bar button{
+    border:none;
+    padding:10px;
+    background-color: aliceblue;
+}
+.right .login-register img{
+    height:100%;
+    float:right;
+}
+/***********************CONTENT AREA**********************/
+.welcome-page{
+    /*border:1px solid blue;*/
+    height:800px;
+    padding-left:20px;
+    padding-right:20px;
+    
+   background-image:url("../img/shoppinggirl1.jpg");
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.container{
+    height:100%;
+    border:none;
+    position:relative;
+  /*  border:1px solid green;*/
+}
+.word-container{
+    position:relative;
+    border:none;
+    width:100%;
+    height:350px;
+}
+.hero-word h2{
+    padding-left:20px;
+    margin-bottom:50px;
+    color:#0C359E;
+    
+}
+.hero-word a{
+    border:none;
+    font-size:25px;
+    padding:20px;
+    position:relative;
+    left:100px;
+    text-decoration:none;
+    text-transform: uppercase;
+    color:white;
+    background-color: #242F9B;
+
+
+}
+/****************************SEARCH BY PICTURES ********************************/
+.shopbypic-area{
+    /*border:1px  red solid;*/
+    width:100%;
+    height:700px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+
+.pictures{
+    height:450px;
+    /*border:1px blue solid;*/
+    width:100%;
+    position:absolute;
+}
+.pics{
+    /*border:1px solid pink;*/
+    width:350px;
+    height:100%;
+    padding:60px;
+}
+.pics h2{
+    text-align:center;
+    padding-top:120px;
+    color: white;
+}
+/*****************************BRANDS NAME**********************************************/
+.brand{
+    border:1px solid orange;
+    height:300px;
+    width:100%;
+    position:relative;
+}
+/*.brand-container{
+    border:1px green solid;
+    height:200px;
+}
+.brandname{
+    width:20px;
+   
+}*/
+/**************************FOOTER*****************************************************/
+.footer{
+    border:1px solid green;
+    height:700px;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:black;
+}
+.footer-container{
+   /* border:1px solid red;*/
+    height:600px;
+    position:absolute;
+    width:100%;
+}
+.footer-list{
+    /*border:1px solid blue;*/
+    height:100%;
+    width:100%;
+    margin-left:10px;
+    margin-right:10px;
+}
+.list{
+    height:100%;
+    width:370px;
+   /* border:1px green solid;*/
+}
+.list-items{
+    text-align:center;
+    padding-top:80px;
+}
+.list-items .list-title{
+    font-size:20px;
+    color:gray;
+}
+.list-items li{
+    margin:60px;
+    font-size: 20px;
+    list-style: none;
+    
+}
+.list-items li a{
+    text-decoration:none;
+    color:white;
+}
+/*****************************LOGIN PAGE*************************/
+.login-page{
+    border:1px solid black;
+    height:600px;
+    width:500px;
+    margin-left:500px;
+    margin-top:60px;
+}
