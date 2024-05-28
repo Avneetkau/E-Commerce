@@ -3,136 +3,110 @@
     padding:0px;
     box-sizing: border-box;
 }
-/*NAVBAR*/
-.navbar{
-    width:100%;
-    height:100px;
-    border:1px solid blue;
-    position: fixed;
-    z-index: 900;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+
+/*.login-container{
+    /*border:2px solid red;
+    background-color:blue;
+    border-radius:20px;
+    height:600px;
+    width:450px;
+    position:relative;
+    left:500px;
+    top:55px;
     display:flex;
+    justify-content:center;
+    align-items:center;
 }
-/*.nav{
-  flex-basis:300px;
-  border:1px solid red;
+.login-page{
+    border:2px solid green;
+    background-color:white;
+    border-radius:20px;
+    height:450px;
+    width:320px;
+    align-items:center;  
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.login-form{
+    border:1px blue solid;
+    padding:10px;
+}
+form{
+    margin:10px;
+}
+.name{
+    margin:10px;
+}
+.name1{
+    margin:10px;
+    text-align:center;
+}
+.name2{
+    margin:10px;
+    text-align:center;
 }*/
 
-/*Navbar Logo*/
-.navbar-icon{
-    border:1px solid red;
-    width:200px;
-    
-}
-.navbar-icon img{
-    height:100%;
-   
-    
-}
-/* Important:-Navbar buttons are not aligning in center*/
-.navbar-buttons{
-    border:1px solid orange;
-    width:600px;   
-}
-.navbar-buttons ul{
-    display:flex;
-    list-style: none;
-    justify-content:space-around;
-    flex-wrap:nowrap;
-   
-}
-.navbar-buttons ul li{
-    align-items:center;
-    height:30px;
-    padding:30px;
-    font-size:20px;
-   
-}
-.navbar-buttons ul a{
-    text-decoration:none !important;
-    align-items:center;
-    height:40px;
-    padding:0px 12px;
-}
-/*Navbar Search*/
-.navbar-search{
-    border:1px solid green;
-    width:400px;
-    padding:40px;
-    
-
-}
-
-.fa-search:before {
-    content: "\f002";}
-.navbar-login{
-
-    width:328px;
-    border:1px solid blue;
-}
-/*Background image*/
-.background-pic-area{
-    width:100%;
-    border:1px solid red;
-    height:750px;
-    top:100px;
-    display:flex;
-    position:absolute;
-}
-.background{
-    width:600px;
+.login-container{
+    border:1px red solid;
+    position:relative;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
     height:600px;
-    border:1px solid orange;
-    position:relative;
-    left:150px;
-    top:80px;
-}
-/*Search With Images Area*/
-.search-with-images{
-    display:flex;
-    width:100%;
-    height:500px;
-    position:relative;
-    top:850px;
-    border:1px solid blue;
-    align-items:space-around;
-    justify-content:center;
+    width:400px;left:500px;
+    top:60px;
+    padding:30px;
+    border-radius:20px ;
+
     
-    align-items:center;
 }
-.search{
-    display:flex;
-    border:1px red solid;
-    position:relative;
-    height:350px;
-    width:300px;
-    margin:120px;
-   
+.login-inputs{
+    padding:30px;
+    border:1px blue solid;
+    height:530px;
 }
-/*Fashion Words*/
-.fashion-words{
-    border:1px solid blue;
-    position:relative;
-    height:300px;
+form header{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+form label{
+  font-size:20px;
+  margin-bottom:40px;
+}
+form input{
+    margin-bottom:10px;
+    height:30px;
     width:100%;
-    top:850px;
 }
-/*Brand*/
-.brands{
-    height:200px;
-    width:100%;
-    border:1px red solid;
-    position:relative;
-    top:850px;
+form input[type=submit]{
+    font-size:20px;
+    background-color:blue;
+    color:white;
 }
-/*Footer*/
-.footer{
-    border:1px solid green;
-    width:100%;
-    height:500px;
+form input[type=submit]:hover{
+    background-color:indigo;
+    cursor:pointer;
+}
+form a{
+    text-decoration:none;
+    text-align:center;
+}
+    
+ form .sign-using{
+   font-size:18px;
     position:relative;
-    top:850px;
+    left:60px;
+}
+.social-signin{
+   text-align:center;
+   margin-top:10px;
+   margin-bottom:20px;
+}
+.social-signin a{
+    margin:20px;
+}
+.social-signin a img{
+    border:1px solid red;
+    height:30px;
+    width:30px;
 }

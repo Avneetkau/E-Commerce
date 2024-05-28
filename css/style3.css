@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+}
+body{
+    background-color:blue;
+    width:100%;
+    
+}
+
+.sign-up-container{
+    /*border:1px white solid;*/
+    background-color:white;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+    height:600px;
+    width:400px;
+    position:relative;
+    left:500px;
+    top:60px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+  
+   
+   
+}
+.sign-up-form{
+    /*border:1px solid green;*/
+    border-radius:10px;
+    height:540px;
+    width:340px;
+    background-color:white;
+    padding:20px;
+}
+/*https://www.codingnepalweb.com/create-login-registration-form-html-css/
+A Login Form is a Section where users have to input their login details to enter a particular website or application and a Registration Form is a place where users can create their login details to get login details or to register their details for different purposes.*/
+form header{
+    font-size:40px;
+    text-align:center;
+    font-weight: bold;
+    color:blue;
+}
+form label{
+    outline:none;
+    margin:20px;
+    font-size:20px;
+    color:black;
+}
+form input{
+    height:40px;
+    width:100%;
+    margin:10px;
+    outline:none;
+}
+form input[type=submit]{
+    font-size:20px;
+    background-color:blue;
+    color:white;
+}
+form input[type=submit]:hover{
+    background-color: indigo;
+    cursor:pointer;
+}
+.sign-up{
+    text-align:center;
+    font-size:20px;
+}
+.sign-up a{
+    text-decoration:none;
+}
+.sign-up a:hover{
+    text-decoration: underline;
+}

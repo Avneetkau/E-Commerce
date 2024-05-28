@@ -1,0 +1,247 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.nav-bar{
+    height:100px;       /******NAV-BAR HEIGHT********/
+    width:100%;
+    /*border:1px red solid;*/
+    /*************TO MAKE NAVBAR FIXED AND CONTENT DON'T GO OVER IT*****************/
+    position:sticky;
+    background-color:white;
+    top:0px;
+    justify-content:space-between;
+    z-index:900;
+    /*box-shadow: 0 5px 20px rgba(0,0,0,.1);*/
+    box-shadow:0 3px 5px #7E8EF1;
+    top:0px;
+}
+.header-img{
+    border-radius:50%;
+   
+}
+.header-img img{
+    height:100%;
+}
+.header-img a:hover{
+    cursor:pointer;
+}
+.header-items li{
+    list-style:none;
+}
+.header-items ul li a{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.header-items  li a{
+    margin:20px;
+    height:40px;
+ text-decoration:none;
+ color:#615EFC;
+}
+.header-items li a:hover{
+    color:blue;
+    font-size:20px;
+}
+.search{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+.search input{
+    height:20px;
+    padding:20px;
+}
+.search input[type=text]{
+   
+    width:250px;
+    border:none;
+    border-radius:10px;
+    background-color:#EEEEEE;
+}
+.search input[type=button]{
+    margin-left:5px;
+    height:40px;
+    padding:10px;
+    width:80px;
+    text-align:center;
+    cursor:pointer;
+    background-color:blue;
+    color:white;
+    font-size:15px;
+    border-radius:10px;
+    border:none;
+}
+.search input[type=button]:hover{
+    background-color:#7E8EF1;
+    color:blue;
+}
+.header-list{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/************************BACKGROUND-IMAGE*************************************/
+.background-image{
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+    /*border:1px solid orange;*/
+    height:500px; /************BACKGROUND HEIGHT*****************/
+    width:100%;
+    position:absolute;
+    top:100px;
+    display:flex;
+    justify-content:center;
+}
+.homepage-img{
+   /* border:1px solid blue;8*/
+    width:400px;
+}
+.homepage-img img{
+    height:100%;
+    width:100%;
+}
+.homepage-words{
+  /*  border:1px solid green;*/
+    width:400px;
+    text-align:center;
+}
+.homepage-words h2{
+    /*border:1px solid green;*/
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.homepage-words p{
+    /*border:1px solid orange;*/
+    margin-bottom:25px;
+    height:40px;
+    font-size:20px;
+    font-weight:bold;
+    padding:5px;
+}
+ .homepage-words input[type=button]{
+    /*border:1px solid black;*/
+    height:40px;
+    width:120px;
+    padding:5px;
+    font-size:20px;
+    color:white;
+    background-color:blue;
+    border:none;
+}
+.homepage-words input[type=button]:hover{
+    
+        background-color:#7E8EF1;
+        color:blue;
+}
+
+/***********************SEARCH IMAGES****************************************/
+.homepage-search-img{
+    position:relative;
+    /*border:1px solid green;*/
+    top:500px;
+    height:500px; /**********IMAGE  CONTAINER HEIGHT**********/
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.search-images{
+    /*border:1px solid red;*/
+    height:400px;
+    width:300px;
+}
+/*.img1{
+    background-size:contain;
+  background-repeat:no-repeat;
+  background-position:inherit;
+  height:100%;
+}*/
+.search-images img {
+    height:100%;
+    width:100%;
+}
+/*******************BRAND NAMES**************************/
+.brand-names{
+    /*border:1px solid orange;*/
+    position:relative;
+    top:500px;
+    height:300px; /*BRAND NAME HEIGHT*/
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+ 
+.brand-names .brand-img{
+    /*border:1px solid blue;*/
+    height:200px;
+    width:230px;
+   
+}
+.brand-names .brand-img img{
+    height:100%;
+    width:100%;
+}
+/******************FOOTER************************/
+.homepage-footer{
+    /*border:1px solid red;*/
+    height:500px;
+    width:100%;
+    position:relative;
+    top:500px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:black;
+    opacity:0.8;
+
+}
+.footer-list{
+    /*border:1px solid orange;*/
+    height:450px;
+    width:350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+.footer-list img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+.footer-list blackquote{
+    text-align:center;
+    width:300px;
+    /*border:1px solid red;*/
+    padding:20px;
+    
+}
+.footer-list p{
+    font-size:20px;
+    font-weight:bold;
+}
+.footer-list ul li{
+    list-style: none;
+    font-size:20px;
+    
+    margin:20px;
+    text-align:left;
+}
+/*https://colorhunt.co/palette/615efc7e8ef1d1d8c5eeeeee*/
+.copyright{
+    width:100%;
+    height:20px;
+    position:relative;
+    top:500px;
+    background-color:black;
+    opacity:0.8;
+}
+.copyright p{
+    text-align:center;
+    color:white;
+}
